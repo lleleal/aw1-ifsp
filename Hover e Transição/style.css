@@ -1,0 +1,64 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+}
+
+.caixa-central {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 100px;
+    background-color: pink;
+    margin: 30px;
+}
+
+/* HOVERS */
+.fade{
+    opacity: 0.5;
+}
+.fade:hover{
+    opacity: 1;
+}
+
+
+.color:hover{
+    /* hover contém transição */
+    background: yellow;
+    transition: 500ms linear;
+}
+
+.grow:hover{
+    /* hover contém transição */
+    transform: scale(1.3);
+    transition: 1000ms linear;
+}
+
+.shrink:hover{
+    transform: scale(0.5);
+}
+
+.rotate:hover{
+    transform: rotatez(-30deg);
+}
+
+.circle:hover{
+    border-radius: 50%;
+}
+
+.border:hover{
+    box-shadow: inset 0 0 0 25px blueviolet;
+}
