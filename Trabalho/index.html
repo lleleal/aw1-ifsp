@@ -1,50 +1,45 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-
+<html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/46bdff6f28.js"></script>
+    <link rel="stylesheet" href="style.css">
     <title>Contato</title>
-    <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
-    <header> 
-        <h1>Seu Blog Pessoal</h1> 
-        <nav>
-            <a href=”dominio.tld/home”>Início</a>
-            <a href=”dominio.tld/blog”>Blog</a>
-            <a href=”dominio.tld/sobre”>Sobre</a>
-         </nav>
-    </header>
-    <main>
-           <div class=”profile”>
-              <h1>Sobre nossa empresa</h1>
-              <img src=”foto-de-perfil.png”>
-              <p>Sobre o autor</p>
-           </div>  
-        </div>        
-     </main>
-    <form action="#" method="post" autocomplete="off">
-        <fieldset>
-            <legend>Formulário de contato</legend>
-            <label for="name">Nome</label>
-            <input type="text" name="name" id="name" required placeholder="Digite seu nome completo" />
-            <label for="email">E-mail</label>
-            <input type="email" name="email" id="email" required placeholder="Digite um e-mail válido" />
-            <label for="subject">Assunto</label>
-            <input type="text" name="subject" id="subject" />
-            <label for="message">Mensagem</label>
-            <textarea name="message" id="message" rows="7" required maxlength="1000" minlength="20"
-                placeholder="Conte-nos tudo"></textarea>
-            <button type="submit" class="btn">Enviar</button>
-        </fieldset>
-    </form>
-    <footer>
-        <a href=”twitter.com/autor”>Twitter</a>
-        <a href=”facebook.com/autor”>Facebook</a>
-        <a href=”instagram.com/autor”>Instagram</a>
-     </footer>
-</body>
+    <div class="col-12" id="interface">
+        <img src="https://endeavor.org.br/wp-content/uploads/2021/10/fotos3.png" alt="Foto Perfil" class="profile">
+        <h1>Julia Petit</h1>
+        <h5>Fundadora e Diretora de Comunicação da marca Sallve</h5>
+        <p> Publicitária Brasileira</p>
 
+        <form action="#" method="post" autocomplete="off">
+            <fieldset>
+                <legend>Mande uma mensagem:</legend>
+                <label for="name">Nome</label>
+                <input type="text" name="name" id="name" required placeholder="Digite seu nome completo" />
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="email" required placeholder="Digite um e-mail válido" />
+                <label for="subject">Assunto</label>
+                <input type="text" name="subject" id="subject" />
+                <label for="message">Mensagem</label>
+                <textarea name="message" id="message" rows="7" required maxlength="1000" minlength="20"
+                    placeholder="Conte sua experiência com a Sallve"></textarea>
+                <button type="submit" class="btn">Enviar</button>
+            </fieldset>
+        </form>
+
+        <h5>Ou me procure no Instagram:</h5>
+        <ul>
+            <li><a target="_blank" href="https://www.instagram.com/petisco?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i class="fab fa-instagram"></i></a></li>
+        </ul>
+    </div>
+</body>
 </html>
+
+
+
+
+

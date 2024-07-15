@@ -1,90 +1,148 @@
-html {
-    background-color: #181818;
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
+body{
+   margin: 0;
+   padding: 0;
+   background-size: cover;
+   letter-spacing: 0px;
+   background-color: #7519ff;
 }
 
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    margin: 0;
+#interface{
+   align-content: center;
+   width: 450px;
+   background-color: whitesmoke; 
+   box-shadow: 0px 0px 0px 1px rgba(0, 0 , 0, 1);
+   border-radius: 5%;
+   padding: 40px;
+   text-align: center;
+   margin: auto;
+   margin-top: 5%;
+   color: black;
+   font-family: 'Century Gothic', sans-serif;
 }
 
-form {
-    width: 90%;
-    min-width: 28.125em;
-    max-width: 35em;
-    background-color: #0e1010;
-    padding: 1em;
+.profile{
+   border-radius: 50%;
+   width: 200px;
+   height: 200px;
+   transition: 500ms linear; 
+}
+
+#interface h1{
+   font-size: 40px;
+   letter-spacing: 4px;
+   font-weight: 100;
+   transition: 500ms linear; 
+}
+
+#interface h5{
+   font-size: 20px;
+   letter-spacing: 3px;
+   font-weight: 100;
+   transition: 500ms linear; 
+}
+
+#interface p{
+   text-align: center;
+}
+
+ul{
+   margin: 0;
+   padding: 0;
+}
+
+#interface li{
+   display: inline-block;
+   margin: 6px;
+   list-style: none;
+}
+
+#interface li a{
+   color: black;
+   text-decoration: none;
+   font-size: 60px;
+   transition: all ease-in-out 250ms;
+}
+
+#interface li a:hover{
+   color: greenyellow;
+}
+@media only screen and (max-width: 600px) {
+   #interface {
+     width: 75%;
+   }
+ }
+
+ form {
+   width: 90%;
+   min-width: 28.125em;
+   max-width: 35em;
+   background-color: white;
+   padding: 1em;
 }
 
 fieldset {
-    border: none;
-    padding: 0;
-    margin: 0;
+   border: none;
+   padding: 0;
+   margin: 0;
 }
 
 label,
 input,
 textarea {
-    display: block;
-    width: 100%;
-    box-sizing: border-box;
+   display: block;
+   width: 100%;
+   box-sizing: border-box;
 }
 
 input,
 textarea {
-    background-color: rgba(0, 0, 0, 0.3);
-    border: 2px solid transparent;
-    border-bottom-color: #bbb;
-    padding: 0.75em;
-    margin: 0.5em 0 2.5em;
-    color: white;
-    outline: 0;
+   background-color: whitesmoke;
+   border: 2px solid transparent;
+   border-bottom-color: #bbb;
+   padding: 0.75em;
+   margin: 0.5em 0 2.5em;
+   color: black;
+   outline: 0;
 }
-
-/* input:invalid,
-textarea:invalid {
-    background-color: red;
-} */
-
-/* input:valid,
-textarea:valid {
-    background-color: green;
-} */
 
 input:invalid:focus,
 textarea:invalid:focus {
-    border-bottom: 2px solid #ff000d;
+   border-bottom: 2px solid #ff000d;
 }
 
 input:valid:focus,
 textarea:valid:focus {
-    border-bottom: 2px solid #0ec72a;
+   border-bottom: 2px solid #0ec72a;
 }
 
 input:focus,
 textarea:focus {
-    border-bottom: 2px solid #8e999a;
-    background-color: #2a2727;
+   border-bottom: 2px solid #8e999a;
+   background-color: #ffffff;
 }
 
 legend {
-    padding: 0.5em;
-    text-align: center;
-    font-weight: bold;
-    color: #8e999a;
-    font-size: 1.3em;
+   padding: 0.5em;
+   text-align: center;
+   font-weight: bold;
+   color: green;
+   font-size: 1.3em;
 }
 
-.button {
-    background-color: #2a2727;
-    justify-content: center;
-    color: white;
-    cursor: pointer;
-    padding: 0.7em;
-    font-size: 1.2em;
-    border: none;
+.btn {
+   background-color: green;
+   color: white;
+   cursor: pointer;
+   padding: 0.7em;
+   font-size: 1.2em;
+   border: none;
+   transition: 200ms linear; 
 }
+
+.btn:hover{
+   border-radius: 30%;
+}
+
+.profile:hover {
+   transform: scale(1.1);
+ }
