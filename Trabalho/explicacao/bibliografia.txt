@@ -1,0 +1,15 @@
+MDN Web Docs - HTML Forms: A documentação da MDN oferece um guia completo sobre como criar formulários usando HTML, incluindo diferentes tipos de campos e elementos. https://developer.mozilla.org/pt-BR/docs/Learn/Forms 
+
+W3Schools - HTML Forms: Detalhes sobre a criação de formulários em HTML, incluindo exemplos práticos. https://www.w3schools.com/html/html_forms.asp 
+
+CSS-Tricks - Styling a Form: O CSS-Tricks oferece um guia sobre como estilizar formulários usando CSS, abordando seletores e propriedades relevantes. Artigo: https://css-tricks.com/snippets/css/styling-forms/ 
+
+Traversy Media (YouTube): Brad Traversy tem tutoriais em vídeo sobre a criação e estilização de formulários de contato usando HTML e CSS. Canal: https://www.youtube.com/user/TechGuyWeb 
+
+Codecademy: A Codecademy oferece cursos interativos sobre HTML e CSS, incluindo a criação de formulários e sua estilização. Curso: https://www.codecademy.com/learn/learn-html Curso: https://www.codecademy.com/learn/learn-css 
+
+GitHub: Procure por repositórios públicos no GitHub que contenham exemplos de formulários de contato em HTML e CSS. Analisar esses projetos pode fornecer insights úteis. Pesquise por: https://github.com/topics/html-css-contact-form 
+
+Frontend Mentor: O Frontend Mentor oferece desafios de design que podem incluir a criação de formulários de contato. Site: https://www.frontendmentor.io/challenges 
+
+Bootstrap: O Bootstrap tem componentes prontos para formulários, facilitando a criação e o design. Documentação: https://getbootstrap.com/docs/5.0/forms/overview/ 

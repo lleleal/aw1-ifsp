@@ -1,4 +1,5 @@
 body{
+   display: flex;
    margin: 0;
    padding: 0;
    background-size: cover;
@@ -26,6 +27,10 @@ body{
    height: 200px;
    transition: 500ms linear; 
 }
+
+.profile:hover {
+   transform: scale(1.1);
+ }
 
 #interface h1{
    font-size: 40px;
@@ -66,6 +71,7 @@ ul{
 #interface li a:hover{
    color: greenyellow;
 }
+
 @media only screen and (max-width: 600px) {
    #interface {
      width: 75%;
@@ -142,7 +148,3 @@ legend {
 .btn:hover{
    border-radius: 30%;
 }
-
-.profile:hover {
-   transform: scale(1.1);
- }

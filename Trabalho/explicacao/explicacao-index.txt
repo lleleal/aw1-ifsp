@@ -1,0 +1,50 @@
+Desenvolvimento HTML:
+
+1 - Estrutura Básica do Documento: 
+
+    - <!DOCTYPE html>: Define o tipo de documento como HTML5. 
+
+    - <html lang="pt-br">: Elemento raiz que indica que o idioma principal do documento é o português do Brasil. 
+
+ 
+2 - Cabeçalho (Head): 
+
+    - <meta charset="UTF-8">: Especifica o conjunto de caracteres UTF-8 para suportar caracteres especiais. 
+
+    - <meta name="viewport" content="width=device-width, initial-scale=1.0">: Define as configurações de visualização da página em dispositivos móveis. 
+    
+    - <script src="https://kit.fontawesome.com/46bdff6f28.js"></script>: Conjunto de ícones vetoriais escaláveis que podem ter personalizados, instantaneamente, o tamanho, cor, sombra, e outras características compatíveis com CSS.
+
+    - <title>Contato</title>: Define o título da página exibido na guia do navegador. 
+
+    - <link rel="stylesheet" href="style.css" />: Importa um arquivo de estilo externo chamado "style.css" para aplicar estilos ao formulário. 
+
+3 - Corpo da Página (Body):
+
+    - <div class="col-12" id="interface">: Serve para separar os conteúdos do código HTML em divisões de espaço/conjunto, sem qualquer peso semântico.
+
+    - <img src="https://endeavor.org.br/wp-content/uploads/2021/10/fotos3.png" alt="Foto Perfil" class="profile">: Inserção de imagem. Atributo é o src, que significa source e corresponde à informação sobre o endereço da imagem.
+
+    - <h1>Julia Petit</h1>: Heading tag.
+
+    - <h5>Fundadora e Diretora de Comunicação da marca Sallve</h5>: Heading tag.
+        
+    - <p> Publicitária Brasileira</p>: Representa um parágrafo.
+
+    - <form action="#" method="post" autocomplete="off">: Início do formulário. O atributo action define o URL para onde os dados do formulário serão enviados (neste caso, está como "#" apenas para fins de exemplo). O método é "post" para enviar os dados e o atributo autocomplete é desativado. 
+
+    - <fieldset>: Cria um campo de conjunto para agrupar elementos relacionados no formulário. 
+
+    - <legend>Formulário de contato</legend>: Título para o campo de conjunto. 
+
+    - <label for="name">Nome</label>: Rótulo associado ao campo de entrada de "Nome". 
+
+    - <input type="text" name="name" id="name" required placeholder="Digite seu nome completo" />: Campo de entrada de texto para o nome. O atributo type define o tipo de entrada, name é o nome do campo (usado no envio do formulário), id é um identificador único, required torna o campo obrigatório e placeholder exibe um texto temporário. 
+
+    - Semelhante às etapas acima, existem campos para "E-mail", "Assunto" e "Mensagem". 
+
+    - <button type="submit" class="btn">Enviar</button>: Botão de envio do formulário. O atributo type é "submit" para enviar o formulário e a classe "btn" é usada para aplicar estilos. 
+
+    - <h5>Ou me procure no Instagram:</h5>: Heading tag.
+
+    - <li><a target="_blank" href="https://www.instagram.com/petisco?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i class="fab fa-instagram"></i></a></li>: Diz ao navegador para abrir o link em uma nova aba/janela.
